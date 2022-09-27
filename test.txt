@@ -2,7 +2,10 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 git config --list
 
-git status
-git add .
-git commit -m 'message'
+git status # 確認相關檔案狀態
+git add . # . 為全部檔案
+# git add a.py b.py # 可分別檔案存取
+git commit -m 'message' # m 為message, ''中間為註解, 非固定格式, 知曉該記憶點作用為佳
 git log
+
+git remote add origin https://github.com/Liang130520/Liang.git
